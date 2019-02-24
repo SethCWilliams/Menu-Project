@@ -8,6 +8,12 @@
   pointer-events: none;
 }
 
+td {
+  width: 33%;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
