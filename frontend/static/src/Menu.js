@@ -11,7 +11,6 @@ export default class Menu extends Component{
         this.state = {
             order: [],
             price: [],
-            total: [],
         };
         this.addMenuItem = this.addMenuItem.bind(this);
     }
@@ -37,9 +36,6 @@ export default class Menu extends Component{
 
 
     render() {
-        console.log(this.state.total);
-        // var Test = this.state.order;
-        // console.log(Test);
         var UpdatedOrder = this.state.order.map((items)=>{
             return(
                 <li>{items.item}</li>
